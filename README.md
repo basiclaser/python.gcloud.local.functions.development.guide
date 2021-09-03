@@ -13,7 +13,7 @@ pip install -r requirements.txt
 
 #### how to use
 
-treat this local project like a normal GIT project. Make commits as you make changes. This will enable you to roll back to previous versions if you make a mistake.
+Treat this local project like a normal GIT project. Make commits as you make changes. This will enable you to roll back to previous versions if you make a mistake.
 
 ##### development
 
@@ -31,14 +31,14 @@ I recommend using the REST client ([link](https://github.com/Huachao/vscode-rest
 
 ### deployment
 
-to deploy the http_template function, for gcloud internal use only:
+To deploy the http_template function, for gcloud internal use only:
 
 ```
 gcloud functions deploy http_template \
 --runtime python39 --trigger-http --allow-unauthenticated --ingress-settings=internal-only
 ```
 
-to deploy the pubsub function, and set its trigger to the "MYTOPIC" topic:
+To deploy the pubsub function, and set its trigger to the "MYTOPIC" topic:
 
 ```
 gcloud functions deploy pubsub_template \
