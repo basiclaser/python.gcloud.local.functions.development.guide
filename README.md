@@ -52,3 +52,5 @@ To deploy the pubsub function, and set its trigger to the "MYTOPIC" topic:
 ```
 gcloud functions deploy pubsub_template --runtime python39 --trigger-topic=MYTOPIC
 ```
+
+Successful deployment will require an active project on Google Cloud Platform, as well as activation of any used APIs (in this case just cloud functions). Running the above commands will likely direct you to finish any necessary setup if your account isn't already set up with the relevant APIs.
