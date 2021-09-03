@@ -27,7 +27,7 @@ Treat this local project like a normal GIT project. Make commits as you make cha
 
 ### development:
 
-Working from a local project such as this is recommended over clicking through the google cloud platform to set up functions for a number of reasons. Mainly you get a real text editor that can lint, validate and format your code. It's also much faster to locally test than constantly redeploying your code to test it. Most importantly you can use version control (GIT) to protect your work over time. It would be very dangerous to directly create and edit cloud functions on the google cloud platform website, as you could accidentally break/delete things without any backups.
+Working from a local project such as this is recommended over clicking through the google cloud platform to set up functions for a number of reasons. First, you get a real text editor that can lint, validate and format your code. It's also much faster to locally test than constantly redeploying your code to test it. Most importantly you can use version control (GIT) to protect your work over time. It would be very dangerous to directly create and edit cloud functions on the google cloud platform website, as you could accidentally break/delete things without any backups.
 
 You can edit your cloud functions in the `main.py` file. Don't delete the comments, as they tell gcloud which functions are which. To test your functions locally (skips rebuild time), run:
 
