@@ -1,4 +1,4 @@
-### Python Google Cloud Functions Development Guide.
+### Python Google Cloud Local Functions Development Guide.
 
 Please read this whole document. Please read the comments in each template function in `main.py`.
 
