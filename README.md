@@ -4,6 +4,18 @@ Please read this whole document. Please read the comments in each template funct
 
 #### how to install
 
+#### #1 gcloud:
+
+To install gcloud CLI tool ( necessary for deploying functions ):
+follow this link [https://cloud.google.com/sdk/docs/install](https://cloud.google.com/sdk/docs/install).
+If the installer asks you to install python, but you already have python installed
+(check if you do with `which python` on mac/linux and `where python` on windows), I would suggest
+not installing an extra python as it may lead you to being very confused about which python is doing what on your computer.
+
+#### #2 this project:
+
+To install this project to your machine
+
 ```
 cd myProjectsFolder
 git clone git@github.com:basiclaser/python.gcloud.local.development.guide.git
