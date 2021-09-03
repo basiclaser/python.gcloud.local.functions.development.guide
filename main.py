@@ -34,7 +34,7 @@ def http_template(request):
 
 def pubsub_template(event, context):
     """
-        pubsub-triggered functions receive a "context" object that contains info about the pubsub event.
+        pubsub-triggered functions receive a "context" object that contains info about the pubsub event that triggered them (which may or may not be useful to you).
         they don't have to return anything as they are not a "request" for something like a HTTP request.
     """
     print("""This Function was triggered by messageId {} published at {} to {}

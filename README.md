@@ -44,13 +44,11 @@ I recommend using the REST client ([link](https://github.com/Huachao/vscode-rest
 To deploy the http_template function, for gcloud internal use only:
 
 ```
-gcloud functions deploy http_template \
---runtime python39 --trigger-http --allow-unauthenticated --ingress-settings=internal-only
+gcloud functions deploy http_template --runtime python39 --trigger-http --allow-unauthenticated --ingress-settings=internal-only
 ```
 
 To deploy the pubsub function, and set its trigger to the "MYTOPIC" topic:
 
 ```
-gcloud functions deploy pubsub_template \
---runtime python39 --trigger-topic=MYTOPIC
+gcloud functions deploy pubsub_template --runtime python39 --trigger-topic=MYTOPIC
 ```
